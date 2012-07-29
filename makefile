@@ -1,9 +1,4 @@
-install: install-vim install-zsh install-configs
-
-install-vim:
-	rm -rf ~/.vim ~/.vimrc
-	ln -s `pwd`/vim ~/.vim
-	ln -s `pwd`/vimrc ~/.vimrc
+install: install-zsh install-configs
 
 install-zsh:
 	rm -f ~/.zshrc
