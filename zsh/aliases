@@ -18,8 +18,8 @@ alias t='TERM=screen-256color-bce tmux -u -2'
 alias reload='source ~/.zshrc && echo "Reoladed ~/.zshrc"'
 
 # Dotfiles
-alias dots='vim ~/dotfiles'
-alias redot='cd ~/dotfiles && make && reload && cd ~'
+alias dots='subl ~/.dotfiles'
+alias redot='cd ~/.dotfiles && make && reload && cd ~'
 
 # Sanitary
 alias rmsvn='rm -rf `find . -type d -name ".svn"`'
