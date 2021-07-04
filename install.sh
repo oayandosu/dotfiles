@@ -1,0 +1,1 @@
+echo 'installing... oayandosu/dotfiles'
